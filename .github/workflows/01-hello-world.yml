@@ -4,4 +4,19 @@ on: workflow_dispatch
 
 jobs:
   say-hello:
+<<<<<<< HEAD
     run
+=======
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a Greating
+        run: echo "Hello Github Action!"
+
+
+      - name: Print Multiple Line
+        run: |
+          echo "Vijayan D"
+          echo "Manjula M"
+          echo "Jividesh V"
+          echo "Magizhvelan V"
+>>>>>>> 83c30a29d94809540882a2e236461cceaed9ad42
