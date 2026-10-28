@@ -1,7 +1,0 @@
-name: 01-hello-world
-
-on: workflow_dispatch
-
-jobs:
-  say-hello:
-    run
