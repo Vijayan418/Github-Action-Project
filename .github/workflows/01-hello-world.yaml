@@ -16,3 +16,5 @@ jobs:
           echo "Manjula M"
           echo "Jividesh V"
           echo "Magizhvelan V"
+          echo "Today Runner is: ${{ runner.os }}"
+          echo "Today repository is: ${{ github.repository }}"
